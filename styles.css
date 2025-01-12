@@ -34,6 +34,11 @@ button {
 
 .footer {
   background-color: #1f2937;
+  padding: 1rem 2rem;
+  justify-content: left;
+  color: white;
+  font-weight: 200;
+  font-size: 0.75rem;
 }
 
 .hero-info {
