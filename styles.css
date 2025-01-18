@@ -9,6 +9,13 @@ h1 {
   font-weight: 900;
 }
 
+h2 {
+  font-size: 2.25rem;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+}
+
 img {
   border-radius: 2rem;
 }
@@ -30,6 +37,45 @@ button {
   width: 50%;
   height: auto;
   flex-shrink: 1;
+}
+
+.info-section {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  margin: 0rem 4rem 4rem 4rem;
+}
+
+.item-group {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: fit-content;
+  gap: 1rem;
+}
+
+.item {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item p {
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.item-card {
+  width: 8rem;
+  height: 8rem;
+  border: 2px solid #3882f6;
+  border-radius: 8px;
 }
 
 .footer {
