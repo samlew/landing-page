@@ -98,6 +98,53 @@ button {
   text-align: right;
 }
 
+.cta-section {
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  margin: 4rem;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  padding: 2rem 5rem;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cta-text {
+  display: flex;
+  flex-flow: column;
+}
+
+.cta-text h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: -0.5rem;
+}
+
+.cta-text p {
+  font-size: 1rem;
+  font-weight: 200;
+  color: white;
+}
+
+.cta-box button {
+  background-color: #3882f6;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 900;
+  color: white;
+  align-self: center;
+}
+
 .footer {
   background-color: #1f2937;
   padding: 1rem 2rem;
